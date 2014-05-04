@@ -1,1 +1,1 @@
-Android projects
+This repository contains Android projects
