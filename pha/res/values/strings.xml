@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Personal Health Assistant</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bt_not_supported">Bluetooth is not supported</string>
+
+    <string-array name="device_filter">
+        <item>SensorTag</item>
+    </string-array>
+
+    <string name="status">Status</string>
+    <string name="scan_button">Scan</string>
+    <string name="title_activity_device">DeviceActivity</string>
+    <string name="accelerometer_reading_label">Accelerometer Reading:</string>
+    <string name="accelerometer_reading"></string>
+    <string name="scan_menu">Scan</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="html_formatted">
+<![CDATA[p><b>This is bold text</b> rementing is simple text
+
+    ]]>
+    </string>
+    <string name="calories_burned_label">Calorie Balance</string>
+    <string name="activities_labels">Activities</string>
+    <string name="todays_label">Today</string>
+    <string name="this_weeks_label">This Week</string>
+    <string name="calories_consumed_label">Calories Consumed</string>
+    <string name="recommendations_label">Recommendations</string>
+    <string name="profile">Profile</string>
+    <string name="weight_lbs">Weight (lbs)</string>
+    <string name="user_name">User Name</string>
+    <string name="weight_lbs_label">Weight (lbs)</string>
+    <string name="user_name_label">User Name</string>
+    <string name="title_activity_profile">User Profile</string>
+    <string name="save_profile">Save</string>
+    <string name="user_profile">USER PROFILE</string>
+    <string name="title_activity_calories_input">Calories Consumed</string>
+    <string name="calories">Calories</string>
+    <string name="update">Update</string>
+    <string name="calories_consumed">CALORIES CONSUMED</string>
+
+</resources>
