@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTitle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#B0171F</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingBottom">10px</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="UnusedLetter" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ff369bb0</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingBottom">10px</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/letter_bg</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="CurrentLetter" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ff2216b0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingBottom">10px</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="PageTitle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:paddingBottom">10px</item>
+    </style>
+
+    <style name="CustomButton" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:shadowColor">#FF000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:textSize">16dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="ImgThumb">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="ImgThumbNearby">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:src">@drawable/ic_spacer</item>
+    </style>
+
+    <style name="FlashCardLetterStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text"></item>
+    </style>
+
+    <style name="ImgTextOverlay">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffff6713</item>
+        <item name="android:textSize">170dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text"></item>
+    </style>
+
+    <style name="FlashCardWordStyle">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text"></item>
+    </style>
+
+    <style name="MyLessonsLessonNameStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text"></item>
+    </style>
+
+    <style name="MyLessonsLessonDescStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:text"></item>
+    </style>
+
+    <style name="ManageLearnerLessonNameStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text"></item>
+    </style>
+
+    <style name="ManageLearnerLessonDescStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:text"></item>
+    </style>
+
+</resources>
